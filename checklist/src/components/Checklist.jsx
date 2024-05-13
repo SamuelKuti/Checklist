@@ -1,11 +1,10 @@
+import Heading from "./Heading";
 import NewProject from "./NewProject";
 
 const Checklist = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-blue-500">
-        Hello world!
-      </h1>
+    <div className="bg-offWhite">
+      <Heading content={'Hello world'}></Heading>
       <NewProject></NewProject>
     </div>
   )
