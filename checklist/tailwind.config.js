@@ -10,7 +10,8 @@ module.exports = {
         pistachio: '#86CD82',
         asparagus: '#72A276',
         dimGray: '#666B6A',
-        offWhite: '#FAF9F6'
+        offWhite: '#FAF9F6',
+        xRed: '#EC4A4A'
       },
     },
   },
