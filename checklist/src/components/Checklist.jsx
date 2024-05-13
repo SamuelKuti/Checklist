@@ -4,7 +4,7 @@ import NewProject from "./NewProject";
 const Checklist = () => {
   return (
     <div className="bg-offWhite">
-      <Heading content={'Hello world'}></Heading>
+      <Heading content={'Your Projects'}></Heading>
       <NewProject></NewProject>
     </div>
   )
