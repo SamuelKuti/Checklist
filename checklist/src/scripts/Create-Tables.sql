@@ -3,7 +3,6 @@ USE checklist;
 DROP TABLE IF EXISTS projects;
 DROP TABLE IF EXISTS tasks;
 
-
 CREATE TABLE IF NOT EXISTS projects (
 	project_id INT AUTO_INCREMENT,
     project_name VARCHAR(40) NOT NULL,

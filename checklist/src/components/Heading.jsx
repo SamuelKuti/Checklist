@@ -1,7 +1,7 @@
 
-const Heading = ( {content = ""} ) => {
+const Heading = ( {content = "", colour = "black"} ) => {
     return (
-        <p className="text-5xl font-bold text-heading tracking-tight mb-8 ml-20">{content}</p>
+        <p style={{color: colour}} className="text-5xl font-bold text-heading tracking-tight mb-4">{content}</p>
     );
 }
 
